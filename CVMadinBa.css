@@ -1,0 +1,163 @@
+body {
+	font-family : Arial, sans-serif;
+}
+
+img
+{
+	border: 4px solid rgba(30,100,200,0.7);
+	border-radius: 50% ;
+	
+}
+#prenom {
+	color: #1E88E5;
+}
+.structure {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.fonction {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#bloc_haut {
+	display: inline-block;
+	border: 0px solid black ;
+}
+#img {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: #1E88E5;
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+#titre {
+	padding-top: 50px;
+	margin-left: 140px;
+	line-height: 3pt;
+	border: 0px solid black ;
+	text-align: left;
+	
+}
+#soulignement {
+	text-decoration: underline #1E88E5;
+}
+#grd_bloc {
+	float: right;
+	margin-left: 0px;
+	border: 0px solid black;
+	width: 65%;
+
+}
+.bloc {
+	margin-left: 0px;
+}
+hr {
+	color : #1E88E5 ;
+}
+.sous_sous_bloc_2 {
+	display: inline-block;
+	
+	vertical-align: top;
+}
+.sous_sous_bloc {
+	
+	display: inline-block;
+	margin-right: 70px;
+	vertical-align: top;
+	border: 0px solid black;
+}
+
+.sous_sous_bloc_haut {
+	display: inline-block;
+	margin-right: 70px;
+	vertical-align: top;
+	border: 0px solid black;
+}
+.description {
+	
+}
+.recommandeurs
+{
+	display: inline-block;
+	margin-right: 70px;
+}
+#bloc_bas {
+	background-color: #1E88E5;
+	float: left;
+	width: 30%;
+	height: 1400px;
+
+}
+li {
+	list-style-type: none;
+}
+#contact {
+	padding: 30px;
+}
+#a_propos {
+	padding: 30px;
+	text-align: justify;
+	padding-bottom: 740px;
+}
+#loisirs {
+	padding: 30px ;
+	text-align: center;
+<<<<<<< HEAD
+	padding-bottom: 30px;
+=======
+	
+>>>>>>> parent of ed2eca3... Finalisation du CV
+}
+.fil {
+	background-color: #424242;
+	text-align: center ;
+	font-weight: bold;
+	color : #1E88E5 ;
+	padding-top: 8px ;
+	padding-bottom: 8px ;
+}
+h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 3em ;
+}
+h3 {
+
+}
+hr
+{
+	background-color: #1E88E5;
+	height: 0px;
+}
+#grd_bloc i{
+	color : #1E88E5 ;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+#img {
+	width: 200%;
+}
+#bloc_bas {
+	background-color: #1E88E5;
+	float: left;
+	width: 100%;
+	height: auto;
+
+}
+
+#titre {
+	margin-top: 50px;
+	margin-left: 140px;
+	text-align: left;
+}
+
+}
