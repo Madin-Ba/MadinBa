@@ -35,7 +35,7 @@ img
 #titre {
 	padding-top: 50px;
 	margin-left: 70px;
-	border: 1px solid black ;
+	border: 0px solid black ;
 	text-align: left;
 }
 #soulignement {
@@ -86,7 +86,7 @@ hr {
 	display: inline-block;
 	margin-right: 40px;
 	vertical-align: top;
-	border: 1px solid black;
+	border: 0px solid black;
 }
 #sous_sous_bloc_haut_titre {
 	margin-right: 0px;
