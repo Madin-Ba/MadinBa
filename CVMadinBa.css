@@ -34,8 +34,8 @@ img
 }
 #titre {
 	padding-top: 50px;
-	margin-left: 130px;
-	border: 0px solid black ;
+	margin-left: 70px;
+	border: 1px solid black ;
 	text-align: left;
 }
 #soulignement {
@@ -79,14 +79,17 @@ hr {
 	border: 0px solid black;
 }
 #sous_sous_bloc_haut_titre {
-	width: 58%;
+	width: 65%;
 	border: 0px solid black;
 }
 #sous_sous_bloc_haut_img, #sous_sous_bloc_haut_titre  {
 	display: inline-block;
-	margin-right: 70px;
+	margin-right: 40px;
 	vertical-align: top;
-	border: 0px solid black;
+	border: 1px solid black;
+}
+#sous_sous_bloc_haut_titre {
+	margin-right: 0px;
 }
 .description {
 	
@@ -117,7 +120,7 @@ li {
 #loisirs {
 	padding-top: 30px;
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 #loisirs i {
 	margin-right: 20px;
@@ -152,7 +155,7 @@ hr
 	color : #1E88E5 ;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1070px)
 {
 
 body {
@@ -187,7 +190,7 @@ body {
 }
 
 #titre {
-	margin-top: 0px;
+	padding-top: 10px;
 	margin-left: 0px;
 	text-align: center;
 }
