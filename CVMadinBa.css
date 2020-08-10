@@ -1,25 +1,29 @@
-body {
-	font-family : Cambria, Arial, sans-serif;
+body  {
+	font-family : Cambria, Arial, sans-serif; /* Choix de la police CV */
 }
 
 img
 {
 	border: 4px solid rgba(30,100,200,0.7);
 	border-radius: 50% ;
+	/* La photo est entourée d'un trait continu bleu de 4px 
+	légèrement opaque. Etant carrée, le border radius 50% la rend ronde */
 	
 }
 #prenom {
-	color: #1E88E5;
+	color: #1E88E5; /*Le prénom est en couleur */
 }
 .structure {
 	text-transform: uppercase;
 	font-weight: bold;
+	/* Le titre des tros sections se met automatquement en majuscule et en gras */
 }
 .fonction {
 	font-weight: bold;
 	text-transform: capitalize;
+	/* Le nom des postes occupés se met automatquement en gras et la 1ère lettre en majuscule */
 }
-#bloc_haut {
+header { /* Les deux blocs du header s'alignent*/
 	display: inline-block;
 	border: 0px solid black ;
 	width: 100%;
@@ -27,8 +31,8 @@ img
 #img {
 	padding-top: 50px;
 	padding-bottom: 70px;
-	background-color: #1E88E5;
-	float: left;
+	background-color: #1E88E5; /* Fond bleu*/
+	float: left; /*Le bloc contenant l'image flotte à gauche*/
 	width: 100%;
 	text-align: center;
 }
@@ -85,7 +89,7 @@ hr {
 #sous_sous_bloc_haut_img, #sous_sous_bloc_haut_titre  {
 	display: inline-block;
 	margin-right: 0px;
-	vertical-align: top;
+	vertical-align: top; /* Les blocs du footer sont alignés verticalement vers le haut*/
 	border: 0px solid black;
 }
 #sous_sous_bloc_haut_titre {
@@ -99,14 +103,14 @@ hr {
 	display: inline-block;
 	margin-right: 70px;
 }
-#bloc_bas {
+footer {
 	float: left;
 	width: 30%;
-	height:100%;
+	height: 100%;
 
 }
 li {
-	list-style-type: none;
+	list-style-type: none; /* Suppression des puces de la liste*/
 }
 #contact {
 	padding: 30px;
@@ -151,14 +155,15 @@ h3 {
 }
 hr
 {
-	background-color: #1E88E5;
+	color: #1E88E5;
 	height: 0px;
 }
 #grd_bloc i{
-	color : #1E88E5 ;
+	color : #1E88E5 ; /* ouleur bleue sur les icônes awesome à côté des titre des sectons*/
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px) /* Responsives : propriétés particulières pour
+écrns de tablettes et smartphonnes */
 {
 
 body {
@@ -178,7 +183,7 @@ body {
 #grd_bloc {
 	width: 100%;
 }
-#bloc_bas {
+footer {
 	background-color: #1E88E5;
 	float: left;
 	width: 100%;
